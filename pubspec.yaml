@@ -46,6 +46,11 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^3.0.0
+  cached_network_image: ^3.4.1
+  google_maps_flutter: ^2.1.1
+  geolocator: ^9.0.1
+  fl_chart: ^0.69.0
+  permission_handler: ^10.2.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
