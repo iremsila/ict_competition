@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:ictcompetition/pages/main_page.dart';
 import 'package:ictcompetition/register.dart';
 
-import 'DashboardPage.dart';
 
 
 
@@ -201,7 +201,7 @@ class _LoginPageState extends State<LoginPage>
                           onTap: () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => DashboardPage()), // Yönlendirmek istediğiniz sayfa
+                              MaterialPageRoute(builder: (context) => MainPage()), // Yönlendirmek istediğiniz sayfa
                             );
                           },
                           child: Container(
